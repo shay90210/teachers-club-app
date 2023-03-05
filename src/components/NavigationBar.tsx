@@ -22,7 +22,7 @@ export const NavigationBar = () => {
         <Navbar
             sticky='top'
             expand='sm'
-            className='main-nav'
+            className='main-nav shadow-sm mb-3'
             light
         >
             <Container>
@@ -44,7 +44,6 @@ export const NavigationBar = () => {
                     </Nav>
                     <Button
                         style={{ width: '3rem', height: '3rem', position: 'relative', backgroundColor: 'white' }}
-                        variant='outline-primary'
                         className='rounded-circle'
                     >
                         <FontAwesomeIcon icon={faShoppingBag} style={{ color: 'black' }} />
