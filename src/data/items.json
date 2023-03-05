@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Read Sweatshirt'",
+        "name": "Read Sweatshirt",
         "price": 35.99,
         "imgUrl": "/img/readsweatshirt.jpg"
     },
@@ -13,7 +13,7 @@
     },
     {
         "id": 3,
-        "name": "Create Until ... Shirt",
+        "name": "Create Until T-Shirt",
         "price": 22.50,
         "imgUrl": "/img/createuntilshirt.jpg"
     },
@@ -73,7 +73,7 @@
     },
     {
         "id": 13,
-        "name": "Teach Love Shirt",
+        "name": "Teach Love T-Shirt",
         "price": 25.00,
         "imgUrl": "/img/teachloveshirt.jpg"
     },
@@ -85,7 +85,7 @@
     },
     {
         "id": 15,
-        "name": "My Dad is An Essential Educator Kids Hoodie",
+        "name": "Essential Educator Kids Hoodie",
         "price": 20.99,
         "imgUrl": "/img/kidapparel3.jpg"
     }
