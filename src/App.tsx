@@ -10,7 +10,7 @@ import { Contactpage } from './pages/Contactpage';
 
 function App() {
   return (
-    <Container>
+    <Container className='mb-4'>
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/about' element={<Aboutpage />} />
