@@ -7,7 +7,7 @@
     },
     {
         "id": 2,
-        "name": "CDC Approved Teacher Mask",
+        "name": "Teacher Face Mask",
         "price": 16.99,
         "imgUrl": "/img/teachermask.jpg"
     },
@@ -31,25 +31,25 @@
     },
     {
         "id": 6,
-        "name": "Give Teachers Flowers Mug",
+        "name": "Flowers Mug",
         "price": 10.99,
         "imgUrl": "/img/mug1.jpg"
     },
     {
         "id": 7,
-        "name": "Oh Because... Sweatshirt Red",
+        "name": "Sweatshirt Red",
         "price": 30.00,
         "imgUrl": "/img/ohbeacause1.jpg"
     },
     {
         "id": 8,
-        "name": "Oh Because... Sweatshirt Black",
+        "name": "Sweatshirt Black",
         "price": 30.00,
         "imgUrl": "/img/ohbecause2.jpg"
     },
     {
         "id": 9,
-        "name": "Oh Because... Sweatshirt Grey",
+        "name": "Sweatshirt Grey",
         "price": 30.00,
         "imgUrl": "/img/ohbecause3.jpg"
     },
@@ -73,19 +73,19 @@
     },
     {
         "id": 13,
-        "name": "Teach Love T-Shirt",
+        "name": "Teach Luv T-Shirt",
         "price": 25.00,
         "imgUrl": "/img/teachloveshirt.jpg"
     },
     {
         "id": 14,
-        "name": "Teachers Club Handbag",
+        "name": "T.C. Handbag",
         "price": 18.99,
         "imgUrl": "/img/handbag.jpg"
     },
     {
         "id": 15,
-        "name": "Essential Educator Kids Hoodie",
+        "name": "Kids Pink Hoodie",
         "price": 20.99,
         "imgUrl": "/img/kidapparel3.jpg"
     }
