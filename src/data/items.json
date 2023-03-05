@@ -14,73 +14,79 @@
     {
         "id": 3,
         "name": "Create Until ... Shirt",
-        "price": 22,
+        "price": 22.50,
         "imgUrl": "/img/createuntilshirt.jpg"
     },
     {
         "id": 4,
         "name": "Teach Love Hoodie",
-        "price": 40,
+        "price": 40.50,
         "imgUrl": "/img/teachlovehoodie.jpg"
     },
     {
         "id": 5,
         "name": "Virtual Teaching Mug",
-        "price": 10,
+        "price": 10.99,
         "imgUrl": "/img/virtualteachingmug.jpg"
     },
     {
         "id": 6,
         "name": "Give Teachers Flowers Mug",
-        "price": 10,
+        "price": 10.99,
         "imgUrl": "/img/mug1.jpg"
     },
     {
         "id": 7,
         "name": "Oh Because... Sweatshirt Red",
-        "price": 30,
+        "price": 30.00,
         "imgUrl": "/img/ohbeacause1.jpg"
     },
     {
         "id": 8,
         "name": "Oh Because... Sweatshirt Black",
-        "price": 30,
+        "price": 30.00,
         "imgUrl": "/img/ohbecause2.jpg"
     },
     {
         "id": 9,
         "name": "Oh Because... Sweatshirt Grey",
-        "price": 30,
+        "price": 30.00,
         "imgUrl": "/img/ohbecause3.jpg"
     },
     {
         "id": 10,
         "name": "Teacher Bae Red",
-        "price": 22,
+        "price": 22.99,
         "imgUrl": "/img/teacherbae1.jpg"
     },
     {
         "id": 11,
         "name": "Teacher Bae White",
-        "price": 22,
+        "price": 22.99,
         "imgUrl": "/img/teacherbae2.jpg"
     },
     {
         "id": 12,
         "name": "Teacher Bae Orange",
-        "price": 22,
+        "price": 22.99,
         "imgUrl": "/img/teacherbae3.jpg"
     },
     {
         "id": 13,
         "name": "Teach Love Shirt",
-        "price": 25,
+        "price": 25.00,
         "imgUrl": "/img/teachloveshirt.jpg"
     },
     {
         "id": 14,
         "name": "Teachers Club Handbag",
-        "price": 18,
+        "price": 18.99,
         "imgUrl": "/img/handbag.jpg"
+    },
+    {
+        "id": 15,
+        "name": "My Dad is An Essential Educator Kids Hoodie",
+        "price": 20.99,
+        "imgUrl": "/img/kidapparel3.jpg"
     }
 ]
