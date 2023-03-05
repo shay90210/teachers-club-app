@@ -21,21 +21,19 @@ export const NavigationBar = () => {
         >
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
             <Collapse isOpen={menuOpen} navbar>
-                <Nav className='pt-3 pb-3' navbar>
-                    <div className='nav-links'>
-                        <NavItem>
-                            <NavLink className='nav-link' to='/'> HOME</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className='nav-link' to='/about'> ABOUT</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className='nav-link' to='/shop'> SHOP</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
-                        </NavItem>
-                    </div>
+                <Nav className='ml-auto' align-items navbar>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/'> HOME</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/about'> ABOUT</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/shop'> SHOP</NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
+                    </NavItem>
                 </Nav>
             </Collapse>
         </Navbar>
