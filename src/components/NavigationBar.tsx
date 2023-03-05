@@ -21,7 +21,7 @@ export const NavigationBar = () => {
     return (
         <Navbar
             sticky='top'
-            expand='md'
+            expand='sm'
             className='main-nav'
             light
         >
@@ -42,7 +42,31 @@ export const NavigationBar = () => {
                             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
                         </NavItem>
                     </Nav>
-                    <Button><FontAwesomeIcon icon={faShoppingBag} /></Button>
+                    <Button
+                        style={{ width: '3rem', height: '3rem', position: 'relative', backgroundColor: 'white' }}
+                        variant='outline-primary'
+                        className='rounded-circle'
+                    >
+                        <FontAwesomeIcon icon={faShoppingBag} style={{ color: 'black' }} />
+                        <div
+                            className='rounded-circle'
+                            d-flex
+                            justify-content-center
+                            align-items-center
+                            style={{
+                                backgroundColor: 'red',
+                                color: 'white',
+                                width: '1.5rem',
+                                position: 'absolute',
+                                height: '1.5rem',
+                                bottom: '0',
+                                right: '0',
+                                transform: 'translate(25%, 25%)'
+                            }}
+                        >
+                            #
+                        </div>
+                    </Button>
                 </Collapse>
             </Container>
         </Navbar>
