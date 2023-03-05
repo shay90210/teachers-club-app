@@ -1,6 +1,6 @@
 # React && Redux && Typescript E-Commerce Application
 
-<img src='' alt='image of project logo' width='700px' />
+<img src='img\brandlogo.png' alt='image of project logo' width='700px' />
 
 ## Re-done React project using Typescript and Redux. In my last e-commerce project, I went through major errors that were completely unnoticeable to me. I couldn't define where the errors where coming from after completing an entire project, yet my project would not deploy on Netlify. To rectify the intracies that I faced and to ensure a successful project, I recompleted the project using Typescript to ensure that any each step that I code improves my editor support along with catching mistakes in my editor before any runtime for testing.
 
