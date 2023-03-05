@@ -13,7 +13,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
             <CardImg
                 variant='top'
                 src={imgUrl}
-                height='200px'
+                height='400px'
                 style={{
                     objectFit: 'cover'
                 }}
