@@ -11,7 +11,7 @@
 ## WHAT ISSUE WILL THIS PROJECT SOLVE?
 - This project will solve an issue for both the company and the consumer, the system will automatically order more items once the products are low in stock. Also, the system will allow the consumer to register with their email to receive a notification when the product is back in stock. 
 
-## PROJECT'S FUNCTIONAL FEATURES
+## FUNCTIONAL FEATURES
 - Adding items to a cart 
 - Incrementing & decrementing items w/in a modal cart summary
 - Calculating the total cost and # of items in the cart summary
