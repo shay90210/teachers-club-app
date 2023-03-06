@@ -52,25 +52,6 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
       font-size: $--size-p2;
     }
   }
-
-  @media screen and (max-width: 991px) {
-    .home-image-one {
-      display: block;
-      margin: auto;
-    }
-  }
-
-  @media screen and (max-width: 991px) {
-    .home-image-two {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 1400px) {
-    .home-image-three {
-      display: none;
-    }
-  }
 }
 
 // MEDIA QUERIES FOR COMPONENTS ////////////////////////////////

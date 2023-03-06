@@ -15,23 +15,12 @@ export const Homepage = () => {
                             className='home-image-one'
                             src='/img/mug3.jpg'
                             alt='woman holding product'
-                            width='300px'
-                        />
-                    </Col>
-                    <Col>
-                        <img
-                            className='home-image-two'
-                            src='/img/teacherhandbag.jpg'
-                            alt='man wearing handbag'
-                            width='300px'
-                        />
-                    </Col>
-                    <Col>
-                        <img
-                            className='home-image-three'
-                            src='/img/beateacher.jpg'
-                            alt='woman wearing product'
-                            width='300px'
+                            width='400px'
+                            style={{
+                                display: 'block',
+                                margin: 'auto',
+                                objectFit: 'cover'
+                            }}
                         />
                     </Col>
                 </Row>
