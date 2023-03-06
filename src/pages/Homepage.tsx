@@ -10,19 +10,16 @@ export const Homepage = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <Col>
-                        <img
-                            className='home-image-one'
-                            src='/img/mug3.jpg'
-                            alt='woman holding product'
-                            width='400px'
-                            style={{
-                                display: 'block',
-                                margin: 'auto',
-                                objectFit: 'cover'
-                            }}
-                        />
-                    </Col>
+                    <img
+                        className='home-image-one'
+                        src='/img/mug3.jpg'
+                        alt='woman holding product'
+                        width='400px'
+                        style={{
+                            display: 'block',
+                            margin: 'auto',
+                        }}
+                    />
                 </Row>
             </Container>
         </div>
