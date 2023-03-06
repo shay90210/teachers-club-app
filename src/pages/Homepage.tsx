@@ -17,7 +17,7 @@ export const Homepage = () => {
                             alt='woman holding product'
                             width='400px'
                             style={{
-                                objectFit: 'cover'
+                                objectFit: 'cover',
                             }}
                         />
                     </Col>
@@ -28,7 +28,7 @@ export const Homepage = () => {
                             alt='man wearing handbag'
                             width='400px'
                             style={{
-                                objectFit: 'cover'
+                                objectFit: 'cover',
                             }}
                         />
                     </Col>
@@ -39,7 +39,7 @@ export const Homepage = () => {
                             alt='woman wearing product'
                             width='400px'
                             style={{
-                                objectFit: 'cover'
+                                objectFit: 'cover',
                             }}
                         />
                     </Col>
