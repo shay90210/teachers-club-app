@@ -1,5 +1,11 @@
+import { Container, Row, Col } from "reactstrap";
+
 export const Homepage = () => {
     return (
-        <div>THIS IS THE HOMEPAGE</div>
+        <Container>
+            <Row>
+                <Col></Col>
+            </Row>
+        </Container>
     )
 };

@@ -11,10 +11,13 @@ import { Contactpage } from './pages/Contactpage';
 import { NavigationBar } from './components/NavigationBar';
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
+import { Header } from './components/Header';
+
 function App() {
   return (
     <ShoppingCartProvider>
       <NavigationBar />
+      <Header />
       <Container className='mb-4'>
         <Routes>
           <Route path='/' element={<Homepage />} />
