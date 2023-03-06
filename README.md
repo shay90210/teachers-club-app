@@ -1,4 +1,4 @@
-# React && Redux && Typescript E-Commerce Application
+# React && Typescript E-Commerce Application
 
 <img src='public\img\brandlogo.png' alt='image of project logo' width='700px' />
 
