@@ -39,6 +39,36 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
   }
 }
 
+// footer - This styling will only affect anything outside of the APP CONTAINER
+.site-footer {
+  background-color: #fdb44b;
+  color: $--color-drk;
+  padding-top: 20px;
+
+  a {
+    color: $--color-drk;
+    text-decoration: none;
+    font-family: 'cabin';
+    font-size: $--size-p2;
+  }
+
+  a:hover {
+    color: rgb(78, 9, 78);
+  }
+
+  h5 {
+    font-family: 'indie flower';
+    font-weight: $--bold;
+    font-size: 32px;
+  }
+}
+
+.footer-notes {
+  p {
+    font-size: $--size-p3;
+  }
+}
+
 // PAGES STYLING & MEDIA QUERIES ////////////////////////////////
 
 .home-page {
