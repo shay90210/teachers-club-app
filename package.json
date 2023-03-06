@@ -26,6 +26,7 @@
     "reactstrap": "^9.1.6",
     "sass": "^1.58.3",
     "typeface-cabin": "^1.1.13",
+    "typeface-indie-flower": "^1.1.13",
     "typeface-open-sans": "^1.1.13",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"

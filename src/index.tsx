@@ -9,6 +9,7 @@ import 'font-awesome/css/font-awesome.css';
 
 import 'typeface-cabin';
 import 'typeface-open-sans';
+import 'typeface-indie-flower';
 
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
