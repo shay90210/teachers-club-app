@@ -1,0 +1,39 @@
+//GLOBAL STYLING //////////////////////////////////////////////
+
+$--color-primary: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+$--color-secondary: #900048;
+$--color-drk: #1a2639;
+$--color-light: #eeeeee;
+
+// FONT-SIZES --------------------------------------------
+$--size-h1: 72px;
+$--size-h2: 60px;
+$--size-h3: 40px;
+$--size-p1: 22px;
+$--size-p2: 18px;
+$--size-p3: 12px;
+
+// FONT-WEIGHTS ------------------------------------------- 
+$--bold: 600;
+$--bolder: 900;
+
+// SHADOWS ------------------------------------------------
+$--txtdrk-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+$--boxdrk-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+$--boxlight-shadow: 10px 10px 20px rgba(240, 240, 240, 0.2);
+$--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
+
+// COMPONENTS STYLING ////////////////////////////////////////
+
+// header 
+.main-header {
+  h1 {
+    text-align: center;
+    font-size: $--size-h1;
+  }
+
+  .main-logo {
+    display: block;
+    margin: auto;
+  }
+}
