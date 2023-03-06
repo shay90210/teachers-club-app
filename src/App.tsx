@@ -1,17 +1,23 @@
+// STYLING 
 import './App.scss';
 
+// ROUTES TO DIFFERENT PAGES
 import { Routes, Route } from 'react-router-dom';
 import { Container } from 'reactstrap';
 
+// PAGES IN THE APP
 import { Homepage } from './pages/Homepage';
 import { Aboutpage } from './pages/Aboutpage';
 import { Shoppage } from './pages/Shoppage';
 import { Contactpage } from './pages/Contactpage';
 
-import { NavigationBar } from './components/NavigationBar';
+// SHOPPING CART CONTEXT TO RENDER PRODUCTS IN CART AND KEEP IN STORAGE
 import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
+// PROJECT COMPONENTS
 import { Header } from './components/Header';
+import { NavigationBar } from './components/NavigationBar';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -26,6 +32,7 @@ function App() {
           <Route path='/contact' element={<Contactpage />} />
         </Routes>
       </Container>
+      <Footer />
     </ShoppingCartProvider>
   );
 }
