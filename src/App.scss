@@ -38,3 +38,18 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     margin: auto;
   }
 }
+
+// MEDIA QUERIES FOR COMPONENTS ////////////////////////////////
+
+// header - Media Queries for the header to get smaller when the screen minimizes to smaller screens
+@media screen and (max-width: 767px) {
+  .main-header h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  .main-header h1 {
+    font-size: $--size-h3;
+  }
+}
