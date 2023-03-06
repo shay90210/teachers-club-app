@@ -15,7 +15,10 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 
+import { useShoppingCart } from '../context/ShoppingCartContext';
+
 export const NavigationBar = () => {
+    const { openCart, cartQuantity } = useShoppingCart();
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
@@ -42,30 +45,33 @@ export const NavigationBar = () => {
                             <NavLink className='nav-link' to='/contact'> CONTACT</NavLink>
                         </NavItem>
                     </Nav>
-                    <Button
-                        style={{ width: '3rem', height: '3rem', position: 'relative', backgroundColor: 'white' }}
-                        className='rounded-circle'
-                    >
-                        <FontAwesomeIcon icon={faShoppingBag} style={{ color: 'black' }} />
-                        <div
+                    {cartQuantity > 0 && (
+                        <Button
+                            style={{ width: '3rem', height: '3rem', position: 'relative', backgroundColor: 'white' }}
                             className='rounded-circle'
-                            d-flex
-                            justify-content-center
-                            align-items-center
-                            style={{
-                                backgroundColor: 'red',
-                                color: 'white',
-                                width: '1.5rem',
-                                position: 'absolute',
-                                height: '1.5rem',
-                                bottom: '0',
-                                right: '0',
-                                transform: 'translate(25%, 25%)'
-                            }}
+                            onClick={openCart}
                         >
-                            #
-                        </div>
-                    </Button>
+                            <FontAwesomeIcon icon={faShoppingBag} style={{ color: 'black' }} />
+                            <div
+                                className='rounded-circle'
+                                d-flex
+                                justify-content-center
+                                align-items-center
+                                style={{
+                                    backgroundColor: 'red',
+                                    color: 'white',
+                                    width: '1.5rem',
+                                    position: 'absolute',
+                                    height: '1.5rem',
+                                    bottom: '0',
+                                    right: '0',
+                                    transform: 'translate(25%, 25%)'
+                                }}
+                            >
+                                {cartQuantity}
+                            </div>
+                        </Button>
+                    )}
                 </Collapse>
             </Container>
         </Navbar>
