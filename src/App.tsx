@@ -9,10 +9,11 @@ import { Shoppage } from './pages/Shoppage';
 import { Contactpage } from './pages/Contactpage';
 
 import { NavigationBar } from './components/NavigationBar';
+import { ShoppingCartProvider } from './context/ShoppingCartContext';
 
 function App() {
   return (
-    <>
+    <ShoppingCartProvider>
       <NavigationBar />
       <Container className='mb-4'>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
           <Route path='/contact' element={<Contactpage />} />
         </Routes>
       </Container>
-    </>
+    </ShoppingCartProvider>
   );
 }
 
