@@ -39,6 +39,21 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
   }
 }
 
+// PAGES STYLING & MEDIA QUERIES ////////////////////////////////
+
+.home-page {
+  h2 {
+    text-align: center;
+    font-size: $--size-p1;
+  }
+
+  @media screen and (max-width: 767px) {
+    h2 {
+      font-size: $--size-p2;
+    }
+  }
+}
+
 // MEDIA QUERIES FOR COMPONENTS ////////////////////////////////
 
 // header - Media Queries for the header to get smaller when the screen minimizes to smaller screens
