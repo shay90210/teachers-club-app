@@ -15,10 +15,7 @@ export const Homepage = () => {
                             className='home-image-one'
                             src='/img/mug3.jpg'
                             alt='woman holding product'
-                            width='400px'
-                            style={{
-                                objectFit: 'cover',
-                            }}
+                            width='300px'
                         />
                     </Col>
                     <Col>
@@ -26,10 +23,7 @@ export const Homepage = () => {
                             className='home-image-two'
                             src='/img/teacherhandbag.jpg'
                             alt='man wearing handbag'
-                            width='400px'
-                            style={{
-                                objectFit: 'cover',
-                            }}
+                            width='300px'
                         />
                     </Col>
                     <Col>
@@ -37,10 +31,7 @@ export const Homepage = () => {
                             className='home-image-three'
                             src='/img/beateacher.jpg'
                             alt='woman wearing product'
-                            width='400px'
-                            style={{
-                                objectFit: 'cover',
-                            }}
+                            width='300px'
                         />
                     </Col>
                 </Row>
