@@ -10,7 +10,7 @@ import {
 
 const items = [
     {
-        src: '/img/colorful-BG.jpg',
+        src: '/img/pexels-karolina-grabowska-5412429.jpg',
         altText: 'Slide 1',
         caption: 'Slide 1',
         key: 1,
@@ -22,7 +22,7 @@ const items = [
         key: 2
     },
     {
-        src: '/img/colored-pencilsBG.jpg',
+        src: '/img/notebooks-pensBG.jpg',
         altText: 'Slide 3',
         caption: 'Slide 3',
         key: 3

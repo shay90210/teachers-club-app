@@ -34,7 +34,12 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 }
 
 // home carousel - This styling only pertains to the carousel located on the homepage
-
+.carousel-image {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  max-width: 100%;
+  height: '100px';
+}
 
 
 // footer - This styling will only affect anything outside of the APP CONTAINER
