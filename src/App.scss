@@ -75,6 +75,22 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 // contact-form styling -- Contact form is only located in the Contact Page
 .contact-form {
   margin-top: 50px;
+
+  .form-button {
+    background-color: #900048;
+    border-color: #900048;
+    box-shadow: $--boxdrk-shadow;
+    font-weight: $--bold;
+    font-family: 'cabin';
+  }
+
+  .form-button:hover {
+    background-color: $--color-light;
+    color: #4b092a;
+    border-color: #4b092a;
+    font-weight: $--bold;
+    font-family: 'cabin'
+  }
 }
 
 // PAGES STYLING & MEDIA QUERIES ////////////////////////////////
@@ -196,6 +212,14 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     margin-top: 50px;
     text-align: center;
     font-size: $--size-h3;
+    font-weight: $--bold;
+    font-family: 'cabin';
+  }
+
+  p {
+    text-align: center;
+    font-size: $--size-p2;
+    font-family: 'open-sans';
   }
 }
 
