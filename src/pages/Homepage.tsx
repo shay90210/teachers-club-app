@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
+import { HomeCarousel } from '../components/HomeCarousel';
 
 export const Homepage = () => {
     return (
@@ -22,6 +23,7 @@ export const Homepage = () => {
                     />
                 </Row>
             </Container>
+            <HomeCarousel />
         </div>
     )
 };
