@@ -45,23 +45,23 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 
 // footer - This styling will only affect anything outside of the APP CONTAINER
 .site-footer {
-  background-color: #fdb44b;
-  color: $--color-drk;
+  background-color: #4b092a;
+  color: $--color-light;
   padding-top: 20px;
 
   a {
-    color: $--color-drk;
+    color: $--color-light;
     text-decoration: none;
     font-family: 'cabin';
     font-size: $--size-p2;
   }
 
   a:hover {
-    color: rgb(78, 9, 78);
+    color: yellow;
   }
 
   h5 {
-    font-family: 'indie flower';
+    font-family: 'cabin';
     font-weight: $--bold;
     font-size: 32px;
   }
