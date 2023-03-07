@@ -14,7 +14,7 @@ export const Homepage = () => {
                         className='home-image-one'
                         src='/img/mug3.jpg'
                         alt='woman holding product'
-                        width='400px'
+                        width='100%'
                         style={{
                             display: 'block',
                             margin: 'auto',
