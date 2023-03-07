@@ -75,6 +75,7 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     text-align: center;
     font-size: $--size-h1;
     font-family: 'indie-flower';
+    margin-top: 50px;
   }
 
   h2 {
@@ -86,6 +87,18 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     h2 {
       font-size: $--size-p2;
     }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-page h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 647px) {
+  .home-page h1 {
+    font-size: $--size-h3;
   }
 }
 
@@ -170,14 +183,3 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 // MEDIA QUERIES FOR COMPONENTS ////////////////////////////////
 
 // header - Media Queries for the header to get smaller when the screen minimizes to smaller screens
-@media screen and (max-width: 767px) {
-  .main-header h1 {
-    font-size: 55px;
-  }
-}
-
-@media screen and (max-width: 647px) {
-  .main-header h1 {
-    font-size: $--size-h3;
-  }
-}

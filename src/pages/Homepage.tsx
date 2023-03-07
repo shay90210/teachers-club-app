@@ -12,16 +12,30 @@ export const Homepage = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <img
-                        className='home-image-one'
-                        src='/img/mug3.jpg'
-                        alt='woman holding product'
-                        width='100%'
-                        style={{
-                            display: 'block',
-                            margin: 'auto',
-                        }}
-                    />
+                    <Col>
+                        <img
+                            className='home-image-one'
+                            src='/img/mug3.jpg'
+                            alt='woman holding product'
+                            style={{
+                                display: 'block',
+                                margin: 'auto',
+                                maxWidth: '100%'
+                            }}
+                        />
+                    </Col>
+                    <Col>
+                        <img
+                            className='home-image-one'
+                            src='/img/teacherhandbag.jpg'
+                            alt='woman holding product'
+                            style={{
+                                display: 'block',
+                                margin: 'auto',
+                                maxWidth: '100%'
+                            }}
+                        />
+                    </Col>
                 </Row>
             </Container>
             <HomeCarousel />
