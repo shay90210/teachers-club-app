@@ -190,6 +190,15 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
   }
 }
 
+// contact page styling
+.contact-page {
+  h3 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: $--size-h3;
+  }
+}
+
 // MEDIA QUERIES FOR COMPONENTS ////////////////////////////////
 
 // header - Media Queries for the header to get smaller when the screen minimizes to smaller screens
