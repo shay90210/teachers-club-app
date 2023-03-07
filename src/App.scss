@@ -19,7 +19,7 @@ $--bolder: 900;
 
 // SHADOWS ------------------------------------------------
 $--txtdrk-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-$--boxdrk-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+$--boxdrk-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 $--boxlight-shadow: 10px 10px 20px rgba(240, 240, 240, 0.2);
 $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 
@@ -91,31 +91,78 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 
 // shoppage -- Styling only pertaining to shoppage
 .shop-page {
+  h3 {
+    font-size: $--size-h3;
+    text-align: center;
+    font-weight: $--bold;
+    font-family: 'cabin';
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
+
+.shop-item {
   .add-button {
     background-color: #900048;
+    border-color: #900048;
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
   }
 
   .add-button:hover {
-    background-color: rgb(13, 78, 78);
+    background-color: $--color-light;
+    border-color: #900048;
+    color: #900048;
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
   }
 
-  .increase-button,
-  .increase-button:hover {
+  .increase-button {
     background-color: green;
     border-color: green;
+    color: $--color-light;
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
   }
 
-  .decrease-button,
-  .decrease-button:hover {
+  .increase-button:hover {
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
+    color: green;
+    border-color: green;
+    background-color: $--color-light;
+  }
+
+  .decrease-button {
     background-color: red;
     border-color: red;
+    color: $--color-light;
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
   }
 
-  .remove-button,
+  .decrease-button:hover {
+    color: red;
+    border-color: red;
+    background-color: $--color-light;
+    font-weight: $--bolder;
+    box-shadow: $--boxlight-shadow;
+  }
+
+  .remove-button {
+    background-color: $--color-drk;
+    color: $--color-light;
+    border-color: $--color-drk;
+    font-weight: $--bold;
+    box-shadow: $--boxlight-shadow;
+  }
+
   .remove-button:hover {
-    background-color: rgb(190, 190, 77);
+    background-color: $--color-light;
     color: $--color-drk;
-    border-color: rgb(190, 190, 77);
+    border-color: $--color-drk;
+    font-weight: $--bold;
+    box-shadow: $--boxlight-shadow;
   }
 }
 

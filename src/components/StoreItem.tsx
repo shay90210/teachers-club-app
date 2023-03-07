@@ -31,7 +31,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                     <span className="fs-2">{name}</span>
                     <span className="ms-2 text-muted">{formatCurrency(price)}</span>
                 </CardTitle>
-                <div className="shop-page mt-auto">
+                <div className="shop-item mt-auto">
                     {quantity === 0 ? (
                         <Button className="add-button w-100" onClick={() => increaseCartQuantity(id)}>
                             + Add To Cart

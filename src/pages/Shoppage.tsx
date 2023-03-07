@@ -6,15 +6,17 @@ import { Row, Col } from 'reactstrap';
 export const Shoppage = () => {
     return (
         <>
-            <h3>THE TEACHERS' COLLECTION</h3>
+            <div className='shop-page'>
+                <h3>THE TEACHERS' COLLECTION</h3>
 
-            <Row md={2} xs={1} lg={3} className='g-3'>
-                {storeItems.map(item => (
-                    <Col>
-                        <StoreItem {...item} />
-                    </Col>
-                ))}
-            </Row>
+                <Row md={2} xs={1} lg={3} className='g-3'>
+                    {storeItems.map(item => (
+                        <Col>
+                            <StoreItem {...item} />
+                        </Col>
+                    ))}
+                </Row>
+            </div>
         </>
     )
 };
