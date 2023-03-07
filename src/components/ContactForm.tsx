@@ -40,6 +40,22 @@ export const ContactForm = () => {
                     />
                 </Col>
             </FormGroup>
+            <FormGroup row>
+                <Label
+                    for='userEmail'
+                    sm={2}
+                >
+                    Email
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id='userEmail'
+                        name='emailAddress'
+                        placeholder='Email'
+                        type='email'
+                    />
+                </Col>
+            </FormGroup>
         </Form>
     )
 }
