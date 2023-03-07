@@ -69,6 +69,7 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 
 // PAGES STYLING & MEDIA QUERIES ////////////////////////////////
 
+// homepage -- Styling pertaining to the home page
 .home-page {
   h1 {
     text-align: center;
@@ -85,6 +86,36 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     h2 {
       font-size: $--size-p2;
     }
+  }
+}
+
+// shoppage -- Styling only pertaining to shoppage
+.shop-page {
+  .add-button {
+    background-color: #900048;
+  }
+
+  .add-button:hover {
+    background-color: rgb(13, 78, 78);
+  }
+
+  .increase-button,
+  .increase-button:hover {
+    background-color: green;
+    border-color: green;
+  }
+
+  .decrease-button,
+  .decrease-button:hover {
+    background-color: red;
+    border-color: red;
+  }
+
+  .remove-button,
+  .remove-button:hover {
+    background-color: rgb(190, 190, 77);
+    color: $--color-drk;
+    border-color: rgb(190, 190, 77);
   }
 }
 
