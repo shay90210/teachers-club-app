@@ -27,12 +27,6 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 
 // header - This styling will only include the logo & company name
 .main-header {
-  h1 {
-    text-align: center;
-    font-size: $--size-h1;
-    font-family: 'indie-flower';
-  }
-
   .main-logo {
     display: block;
     margin: auto;
@@ -76,6 +70,12 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
 // PAGES STYLING & MEDIA QUERIES ////////////////////////////////
 
 .home-page {
+  h1 {
+    text-align: center;
+    font-size: $--size-h1;
+    font-family: 'indie-flower';
+  }
+
   h2 {
     text-align: center;
     font-size: $--size-p1;

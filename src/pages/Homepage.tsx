@@ -5,6 +5,7 @@ export const Homepage = () => {
     return (
         <div className='home-page'>
             <Container>
+                <h1>THE TEACHERS' CLUB</h1>
                 <Row>
                     <Col>
                         <h2>The safe space to wear your thoughts!</h2>
