@@ -13,7 +13,7 @@ export const Footer = () => {
                         <h5>Links</h5>
                         <ul className='list-unstyled'>
                             <li>
-                                <Link to='home'>Home</Link>
+                                <Link to='/'>Home</Link>
                             </li>
                             <li>
                                 <Link to='about'>About</Link>
