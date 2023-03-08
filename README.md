@@ -55,7 +55,7 @@ The shop page is able to add an item to the cart, increment the item, decrement 
 ### INTERACTIVE CART SUMMARY IN AN OFFCANVAS COMPONENT
 The offcanvas comes from the left side of the screen and features all items that were added to the cart. The cart summary also has the item price, cart total, # of items in cart, and the close button to remove the item completely without deleting the cart.
 
-<img src='public\img\cartsummaryimage.jpg' alt='image of project logo' width='400px' />
+<img src='public\img\cartsummaryimage.JPG' alt='image of project logo' width='400px' />
 
 ## PROJECT FUTURE PLANS
 I would like to accomplish various tasks to improve the complexity of this project, which will include the following:
