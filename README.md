@@ -47,6 +47,11 @@ The project includes various responsiveness to different screen sizes, making it
 #### SHOP PAGE (Full Screen)
 <img src='public\img\screencapture-localhost-3000-shop-2023-03-08-15_09_10.png' alt='image of project logo' width='400px' />
 
+### FULL FUNCTIONAL SHOP PAGE
+The shop page is able to add an item to the cart, increment the item, decrement the item or completely remove an item from a cart.
+
+<img src='public\img\Inkedscreencapture-localhost-3000-shop-2023-03-08-15_26_39.jpg' alt='image of project logo' width='400px' />
+
 ## PROJECT FUTURE PLANS
 I would like to accomplish various tasks to improve the complexity of this project, which will include the following:
 
