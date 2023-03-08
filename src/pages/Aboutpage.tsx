@@ -48,9 +48,42 @@ export const Aboutpage = () => {
                         />
                     </Col>
                 </Row>
-                <h2 className='about-title'>LEARN OUR COMPANY</h2>
-                <Row>
+                <Row className='mt-5'>
+                    <h2 className='about-title'>LEARN OUR COMPANY</h2>
                     <AboutAccordion />
+                </Row>
+                <Row className='mt-5'>
+                    <h2 className='about-title'>ABOUT OUR TTC FOUNDER</h2>
+                    <Col>
+                        <p>For 10 years, Jody has dedicated her life to educating high school students.
+                            Her alma mater University of Wisconsin-Whitewater provided the necessary tools
+                            for Jody to succeed at her first school - Washington High School in Milwaukee,
+                            WI.
+                        </p>
+                        <p>The Teachers' Club started out as a small idea and became something bigger
+                            for Jody. She developed the concept to spread love to teachers after realizing
+                            that teacher shortages came from a lack of motivation, a lack of support, and
+                            much needed love and attention.
+                        </p>
+                        <p>With her humorous sarcasm and loving nature, she created apparel for teachers
+                            to have fun with their students and to remind teachers their 'why' for choosing
+                            to become an educator.
+
+                        </p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <img
+                            src='/img/jodyProfile.jpg'
+                            alt='teacher founder'
+                            style={{
+                                maxWidth: '100%',
+                                display: 'block',
+                                margin: 'auto'
+                            }}
+                        />
+                    </Col>
                 </Row>
             </Container>
         </div>
