@@ -12,19 +12,22 @@ const items = [
     {
         src: '/img/pexels-karolina-grabowska-5412429.jpg',
         altText: 'Slide 1',
-        caption: 'Slide 1',
+        caption: 'I really am a bomb educator with a bomb curl pattern.',
+        title: 'Tiffany R., Wisconsin',
         key: 1,
     },
     {
         src: '/img/teachBG.jpg',
         altText: 'Slide 2',
-        caption: 'Slide 2',
+        caption: 'I have bought two hoodies and a shirt from this store. Everything is comfortable and perfect for teachers on-the-go.',
+        title: 'Danielle P., New York',
         key: 2
     },
     {
         src: '/img/notebooks-pensBG.jpg',
         altText: 'Slide 3',
-        caption: 'Slide 3',
+        caption: 'My teacher hoodie is comfortable and my third graders liked pointing at the symbols!',
+        title: 'Jamie D., Wisconsin',
         key: 3
     },
 ];
@@ -63,7 +66,7 @@ export const HomeCarousel = ({ ...args }) => {
                     className='carousel-image'
                 />
                 <CarouselCaption
-                    captionText={item.caption}
+                    captionText={item.title}
                     captionHeader={item.caption}
                 />
             </CarouselItem>

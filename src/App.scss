@@ -41,6 +41,10 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
   background-size: cover;
 }
 
+.carousel-caption {
+  color: $--color-drk;
+}
+
 
 // footer - This styling will only affect anything outside of the APP CONTAINER
 .site-footer {
