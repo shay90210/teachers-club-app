@@ -39,13 +39,13 @@ Below are some images that really dives into the complexity of this project util
 The project includes various responsiveness to different screen sizes, making it easy for the user to access the app on any platform. 
 
 #### ABOUT PAGE
-<img src='public\img\screencapture-localhost-3000-about-2023-03-08-14_53_05.png' alt='image of project logo' width='700px' />
+<img src='public\img\screencapture-localhost-3000-about-2023-03-08-14_53_05.png' alt='image of project logo' width='200px' />
 
 #### SHOP PAGE
-<img src='public\img\screencapture-localhost-3000-shop-2023-03-08-14_55_39.png' alt='image of project logo' width='700px' />
+<img src='public\img\screencapture-localhost-3000-shop-2023-03-08-14_55_39.png' alt='image of project logo' width='200px' />
 
 #### CONTACT PAGE
-<img src='public\img\screencapture-localhost-3000-shop-2023-03-08-14_55_39.png' alt='image of project logo' width='700px' />
+<img src='public\img\screencapture-localhost-3000-shop-2023-03-08-14_55_39.png' alt='image of project logo' width='200px' />
 
 ## PROJECT FUTURE PLANS
 I would like to accomplish various tasks to improve the complexity of this project, which will include the following:
