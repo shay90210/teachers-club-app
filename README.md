@@ -53,7 +53,5 @@ I would like to accomplish various tasks to improve the complexity of this proje
 - User Authentication: I want to add user authentication and authorization to my application, allowing users to sign up, log in, and log out. This will add an extra layer of security and privacy to my project.
 - Payment Integration: I want to integrate a payment gateway such as Stripe or PayPal into my application, allowing users to make purchases and check out securely.
 - Admin Dashboard: I also want to create an admin dashboard that allows me to manage products, orders, and customers. This will make it easier for me to keep track of my personal project and make mock data-driven decisions.
-
-## WHAT ISSUE WILL THIS PROJECT SOLVE?
-- This project will solve an issue for both the company and the consumer, the system will automatically order more items once the products are low in stock. Also, the system will allow the consumer to register with their email to receive a notification when the product is back in stock. 
+- Product Management: I want to add a feature where the system will automatically order more items once the products are low in stock. The system will also allow the consumer to register with their email to receive a notification when the product is back in stock.
 
