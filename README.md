@@ -38,13 +38,13 @@ Below are some images that really dives into the complexity of this project util
 ### RESPONSIVE WEB DESIGN
 The project includes various responsiveness to different screen sizes, making it easy for the user to access the app on any platform. 
 
-#### ABOUT PAGE
+#### ABOUT PAGE (Small Screen)
 <img src='public\img\screencapture-localhost-3000-about-2023-03-08-14_53_05.png' alt='image of project logo' width='400px' />
 
-#### CONTACT PAGE
+#### CONTACT PAGE (Small Screen)
 <img src='public\img\screencapture-localhost-3000-contact-2023-03-08-14_57_22.png' alt='image of project logo' width='400px' />
 
-#### SHOP PAGE
+#### SHOP PAGE (Full Screen)
 <img src='public\img\screencapture-localhost-3000-shop-2023-03-08-15_09_10.png' alt='image of project logo' width='400px' />
 
 ## PROJECT FUTURE PLANS
