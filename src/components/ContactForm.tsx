@@ -143,6 +143,21 @@ export const ContactForm = () => {
                     </FormGroup>
                 </Col>
             </FormGroup>
+            <FormGroup row>
+                <Label
+                    for="userText"
+                    sm={2}
+                >
+                    Message
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id="useText"
+                        name="text"
+                        type="textarea"
+                    />
+                </Col>
+            </FormGroup>
             <Button className='form-button'>
                 Submit
             </Button>
