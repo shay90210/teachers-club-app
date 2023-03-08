@@ -110,6 +110,7 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     font-size: $--size-h1;
     font-family: 'indie-flower';
     margin-top: 50px;
+    font-weight: $--bold;
   }
 
   h2 {
@@ -143,14 +144,8 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     margin-top: 50px;
     margin-bottom: 25px;
     font-weight: $--bold;
-    font-size: $--size-h2;
+    font-size: $--size-h3;
     font-family: 'cabin';
-  }
-
-  @media screen and (max-width: 992px) {
-    .about-title {
-      font-size: $--size-h3;
-    }
   }
 
   @media screen and (max-width: 768px) {

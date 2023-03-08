@@ -4,7 +4,7 @@ import { AboutAccordion } from "../components/AboutAccordion";
 export const Aboutpage = () => {
     return (
         <div className='about-page'>
-            <h2 className='about-title'>ABOUT THE TEACHERS' CLUB</h2>
+            <h3 className='about-title'>ABOUT THE TEACHERS' CLUB</h3>
             <Container>
                 <Row>
                     <Col>
@@ -49,11 +49,11 @@ export const Aboutpage = () => {
                     </Col>
                 </Row>
                 <Row className='mt-5'>
-                    <h2 className='about-title'>LEARN OUR COMPANY</h2>
+                    <h3 className='about-title'>LEARN OUR COMPANY</h3>
                     <AboutAccordion />
                 </Row>
                 <Row className='mt-5'>
-                    <h2 className='about-title'>ABOUT OUR TTC FOUNDER</h2>
+                    <h3 className='about-title'>ABOUT OUR TTC FOUNDER</h3>
                     <Col>
                         <p>For 10 years, Jody has dedicated her life to educating high school students.
                             Her alma mater University of Wisconsin-Whitewater provided the necessary tools
