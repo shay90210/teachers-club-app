@@ -48,7 +48,8 @@ export const Aboutpage = () => {
                         />
                     </Col>
                 </Row>
-                <Row className='mt-5'>
+                <h2 className='about-title'>LEARN OUR COMPANY</h2>
+                <Row>
                     <AboutAccordion />
                 </Row>
             </Container>
