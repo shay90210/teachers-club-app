@@ -136,6 +136,30 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
   }
 }
 
+// aboutpage -- Styling only pertaining to the about page
+.about-page {
+  .about-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: $--bold;
+    font-size: $--size-h2;
+    font-family: 'cabin';
+  }
+
+  @media screen and (max-width: 992px) {
+    .about-title {
+      font-size: $--size-h3;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-title {
+      font-size: $--size-p1;
+    }
+  }
+}
+
 // shoppage -- Styling only pertaining to shoppage
 .shop-page {
   h3 {
