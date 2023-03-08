@@ -82,6 +82,7 @@ export const ContactForm = () => {
                 <Label
                     for="contactCheckbox"
                     sm={2}
+                    className='form-label'
                 >
                     May we contact you?
                 </Label>
@@ -90,7 +91,7 @@ export const ContactForm = () => {
                         size: 10
                     }}
                 >
-                    <FormGroup check>
+                    <FormGroup check inline>
                         <Input
                             id="checkbox1"
                             type="checkbox"
@@ -100,7 +101,7 @@ export const ContactForm = () => {
                             Yes
                         </Label>
                     </FormGroup>
-                    <FormGroup check>
+                    <FormGroup check inline>
                         <Input
                             id="checkbox2"
                             type="checkbox"
@@ -120,7 +121,7 @@ export const ContactForm = () => {
                     Contact Preference
                 </legend>
                 <Col sm={10}>
-                    <FormGroup check>
+                    <FormGroup check inline>
                         <Input
                             name="radio2"
                             type="radio"
@@ -130,7 +131,7 @@ export const ContactForm = () => {
                             Phone
                         </Label>
                     </FormGroup>
-                    <FormGroup check>
+                    <FormGroup check inline>
                         <Input
                             name="radio2"
                             type="radio"

@@ -91,6 +91,14 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
     font-weight: $--bold;
     font-family: 'cabin'
   }
+
+  .form-label {
+    font-weight: $--bold;
+  }
+
+  legend {
+    font-weight: $--bold
+  }
 }
 
 // PAGES STYLING & MEDIA QUERIES ////////////////////////////////
