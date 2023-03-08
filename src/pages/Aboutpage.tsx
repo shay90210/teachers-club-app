@@ -1,4 +1,5 @@
 import { Row, Col, Container } from "reactstrap";
+import { AboutAccordion } from "../components/AboutAccordion";
 
 export const Aboutpage = () => {
     return (
@@ -46,6 +47,9 @@ export const Aboutpage = () => {
                             }}
                         />
                     </Col>
+                </Row>
+                <Row className='mt-5'>
+                    <AboutAccordion />
                 </Row>
             </Container>
         </div>
