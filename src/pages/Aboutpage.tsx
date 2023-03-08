@@ -47,6 +47,17 @@ export const Aboutpage = () => {
                             }}
                         />
                     </Col>
+                    <Col>
+                        <img
+                            src='/img/teacherclubmask.jpg'
+                            alt='teacher founder'
+                            style={{
+                                maxWidth: '100%',
+                                display: 'block',
+                                margin: 'auto'
+                            }}
+                        />
+                    </Col>
                 </Row>
                 <Row className='mt-5'>
                     <h3 className='about-title'>LEARN OUR COMPANY</h3>
@@ -75,7 +86,18 @@ export const Aboutpage = () => {
                 <Row>
                     <Col>
                         <img
-                            src='/img/jodyProfile.jpg'
+                            src='/img/BAEteacher.jpg'
+                            alt='teacher founder'
+                            style={{
+                                maxWidth: '100%',
+                                display: 'block',
+                                margin: 'auto'
+                            }}
+                        />
+                    </Col>
+                    <Col>
+                        <img
+                            src='/img/writeUntilYouBelieve.jpg'
                             alt='teacher founder'
                             style={{
                                 maxWidth: '100%',
