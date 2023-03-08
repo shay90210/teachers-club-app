@@ -14,7 +14,6 @@ export const ContactForm = () => {
                 <Label
                     for='firstName'
                     sm={2}
-                    hidden
                 >
                     First Name
                 </Label>
@@ -31,7 +30,6 @@ export const ContactForm = () => {
                 <Label
                     for='lastName'
                     sm={2}
-                    hidden
                 >
                     Last Name
                 </Label>
@@ -48,7 +46,6 @@ export const ContactForm = () => {
                 <Label
                     for='userEmail'
                     sm={2}
-                    hidden
                 >
                     Email
                 </Label>
@@ -65,7 +62,6 @@ export const ContactForm = () => {
                 <Label
                     for='phoneNum'
                     sm={2}
-                    hidden
                 >
                     Phone Number
                 </Label>
