@@ -158,6 +158,11 @@ $--txtlight-shadow: 5px 5px 10px rgba(245, 245, 245, 0.4);
       font-size: $--size-p1;
     }
   }
+
+  p {
+    font-family: 'open-sans';
+    font-size: $--size-p2;
+  }
 }
 
 // shoppage -- Styling only pertaining to shoppage

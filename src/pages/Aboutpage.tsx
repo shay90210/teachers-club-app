@@ -11,11 +11,13 @@ export const Aboutpage = () => {
                             As educators, we have the privilege of being in a signature, exemplary club that
                             is only understood by fellow teachers. While navigating the world of education
                             can be difficult, all of the long hours, grading, and lesson planning is worth
-                            the impact we have on the future leaders of this world. The sole purpose of The
-                            Teachers' Club is to provide educators with apparel and merchandise that evoke
-                            the common feelings we all share, while celebrating the wonderful work we're
-                            doing each day. We hope you find something in The Teachers' Club that you feel
-                            proud to wear out loud.
+                            the impact we have on the future leaders of this world.
+                        </p>
+                        <p>
+                            The sole purpose of The Teachers' Club is to provide educators with apparel and
+                            merchandise that evoke the common feelings we all share, while celebrating the
+                            wonderful work we're doing each day. We hope you find something in The Teachers'
+                            Club that you feel proud to wear out loud.
                         </p>
                     </Col>
                 </Row>
