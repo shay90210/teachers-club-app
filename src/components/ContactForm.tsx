@@ -147,6 +147,7 @@ export const ContactForm = () => {
                 <Label
                     for="userText"
                     sm={2}
+                    className='form-label'
                 >
                     Message
                 </Label>
