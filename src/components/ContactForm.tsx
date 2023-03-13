@@ -11,7 +11,14 @@ export const ContactForm = () => {
 
     return (
         <Formik
-            initialValues={ }
+            initialValues={{
+                firstName: '',
+                lastName: '',
+                userEmail: '',
+                phoneNum: '',
+                contactCheckbox: 'By Phone',
+                userText: '',
+            }}
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
                     alert(JSON.stringify(values, null, 2));
@@ -19,7 +26,10 @@ export const ContactForm = () => {
                 }, 400);
             }}
         >
-            <Form className='contact-form'>
+            <Form
+                className='contact-form'
+                onSubmit={handleSubmit}
+            >
                 <FormGroup row>
                     <Label
                         for='firstName'
