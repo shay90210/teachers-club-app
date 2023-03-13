@@ -7,8 +7,18 @@ import {
 } from "reactstrap"
 import { Formik } from "formik"
 
+type ContactFormProps = {
+    firstName: string;
+    lastName: string;
+    userEmail: string;
+    phoneNum: string;
+    userText: string;
+
+
+}
+
 export const ContactForm = () => {
-    const handleSubmit = (values: any, { resetForm }: any) => {
+    const handleSubmit = (values: ContactFormProps, { resetForm }: any) => {
         console.log('form values: ', values);
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
@@ -166,7 +176,7 @@ export const ContactForm = () => {
                     </Label>
                     <Col sm={10}>
                         <Input
-                            id="useText"
+                            id="userText"
                             name="text"
                             type="textarea"
                         />
