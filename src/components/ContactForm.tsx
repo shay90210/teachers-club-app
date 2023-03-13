@@ -8,7 +8,7 @@ import {
 import { Formik } from "formik"
 
 export const ContactForm = () => {
-    const handleSubmit = (values, { resetForm }) => {
+    const handleSubmit = (values: any, { resetForm }: any) => {
         console.log('form values: ', values);
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
