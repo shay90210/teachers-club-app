@@ -1,5 +1,4 @@
 import {
-    Form,
     FormGroup,
     Label,
     Col,
@@ -8,20 +7,21 @@ import {
     CardTitle,
     Card
 } from "reactstrap"
-import { Formik } from "formik"
+import { Formik, Field, Form, ErrorMessage } from "formik";
+import { validateContactForm } from "../utilites/validateContactForm";
 
 type ContactFormProps = {
     firstName: string;
     lastName: string;
-    userEmail: string;
     phoneNum: string;
-    userText: string;
-
-
+    email: string;
+    agree: boolean;
+    contactType: string;
+    feedback: string;
 }
 
 export const ContactForm = () => {
-    const handleSubmit = (values, { resetForm }) => {
+    const handleSubmit = (values: ContactFormProps, { resetForm }: any) => {
         console.log('form values:', values);
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
