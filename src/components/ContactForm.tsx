@@ -4,7 +4,6 @@ import {
     Col,
     Button,
     CardBody,
-    CardTitle,
     Card
 } from "reactstrap"
 import { Formik, Field, Form, ErrorMessage } from "formik";
@@ -44,11 +43,6 @@ export const ContactForm = () => {
             <Card className='form-content'>
                 <Form>
                     <CardBody>
-                        <CardTitle style={{ textAlign: 'center' }}>
-                            <p>Do you have a question, need help with an order, or just want to say hello?
-                                Send Us a Message!
-                            </p>
-                        </CardTitle>
                         <FormGroup row>
                             <Label htmlFor='firstName' md='2'>
                                 First Name
